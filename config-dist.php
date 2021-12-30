@@ -109,7 +109,7 @@ Setting('LABEL_PRINTER_WEBHOOK', 'http://192.168.2.190:8014/api/print/grocy');
 // If, for example, grocy runs in the cloud and your printer daemon runs locally to you, set this to false to let your browser call the webhook instead
 Setting('LABEL_PRINTER_RUN_SERVER', false);
 // Additional parameters supplied to the webhook
-Setting('LABEL_PRINTER_PARAMS', ['font_family' => 'Source Sans Pro (Regular)']);
+Setting('LABEL_PRINTER_PARAMS', ['font_family' => 'Hack (Bold)']);
 // TRUE to use JSON or FALSE to use normal POST request variables
 Setting('LABEL_PRINTER_HOOK_JSON', true);
 
